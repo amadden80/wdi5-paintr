@@ -1,3 +1,10 @@
+.paint-dot {
+  color: red;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
 #canvas
 {
   margin-top: 25px;
@@ -5,3 +12,13 @@
   height: 600px;
   border: 3px double black;
 }
+
+.swatch {
+  height: 40px;
+  width: 40px;
+  border: 1px dashed black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
