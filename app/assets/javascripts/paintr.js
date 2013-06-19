@@ -15,7 +15,7 @@ function select_color(){
 
 //Called when the user hovers over the canvas, changes the color of hovered paint dots to the selected color
 function draw(){
-
+  console.log('Drawing!');
 }
 
 //Called when document loads, fills the canvas with .paintdot div elements
@@ -39,9 +39,10 @@ function clear_pallette(){
 //Alternate (pretty) way to run code after DOM load
 $(function(){
   populate_canvas();
-  $('#add-color').click(add_color);
+  $('#canvas').on('mouseover', '.paint-dot', draw);
+  $('#add-color').on('click', add_color);
+
   // Clear event
-  // Canvas hover event
   // Swatch click event
 });
 
