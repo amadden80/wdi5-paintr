@@ -11,6 +11,9 @@
   width: 800px;
   height: 600px;
   border: 3px double black;
+
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*Notice that we use this class for both color and image swatches. Efficient! */
@@ -22,5 +25,8 @@
   -moz-border-radius: 10px;
   border-radius: 10px;
   display: inline-block;
+
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
