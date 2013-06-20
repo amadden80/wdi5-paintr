@@ -11,7 +11,7 @@
   width: 800px;
   height: 600px;
   border: 3px double black;
-
+  /* Makes background image resize to fill canvas*/
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -25,7 +25,7 @@
   -moz-border-radius: 10px;
   border-radius: 10px;
   display: inline-block;
-
+  /* Makes background image resize to fill swatch*/
   background-size: cover;
   background-repeat: no-repeat;
 }
