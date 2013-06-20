@@ -3,16 +3,17 @@
   height: 20px;
   display: inline-block;
   float: left;
+  opacity: 0.5;
 }
 
-#canvas
-{
+#canvas {
   margin-top: 25px;
   width: 800px;
   height: 600px;
   border: 3px double black;
 }
 
+/*Notice that we use this class for both color and image swatches. Efficient! */
 .swatch {
   height: 40px;
   width: 40px;
